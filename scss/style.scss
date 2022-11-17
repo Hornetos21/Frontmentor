@@ -1,0 +1,41 @@
+@import "var";
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 15px;
+  text-align: left;
+  line-height: 27px;
+}
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 57px;
+  color: $wd;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 165px;
+  margin: 0 auto;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 15px;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@import "block/main";
+@import "block/header";
+@import "block/btn";
+@import "block/titles";
+@import "block/news";
+@import "media";
