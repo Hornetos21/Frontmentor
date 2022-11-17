@@ -1,2 +1,2 @@
-# Fronmentor
+# Frontmentor
 frontend practice
